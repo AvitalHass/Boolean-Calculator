@@ -1,0 +1,10 @@
+﻿<table *ngIf="afterInit" class="table" style="width:100%">
+    <tr>
+        <th *ngFor="let item of truthTable.lstOperands">{{item}}</th>
+        <th dir="ltr"> {{expression}}:הפונקציה</th>       
+    </tr>
+    <tr *ngFor="let item of arrOptionsAndExpression">       
+        <td *ngFor="let x of item.lstOperands">{{x}}</td>
+        <td>{{item.expression}}</td>        
+    </tr>   
+</table> 

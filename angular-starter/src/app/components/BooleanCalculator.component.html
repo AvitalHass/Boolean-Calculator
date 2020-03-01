@@ -1,0 +1,110 @@
+﻿
+ <div class="col-lg-5 " dir="rtl">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <mat-button-toggle-group #group="matButtonToggleGroup" vertical="true">
+            <mat-button-toggle [disabled]="booleanIdentutyDegel" (click)="sendToReduce()">
+                צמצום ביטוי
+            </mat-button-toggle>
+            <mat-button-toggle [disabled]="booleanIdentutyDegel" (click)="sendToLogicGate()" name="logicGate">
+                שער לוגי
+            </mat-button-toggle>
+            <mat-button-toggle [disabled]="booleanIdentutyDegel" (click)="sendToTruthTable()" name="truthTable">
+                טבלת אמת
+            </mat-button-toggle>
+            <mat-button-toggle [disabled]="booleanIdentutyDegel" (click)="BooleanIdentity()" name="BooleanIdentity">
+                זהות בוליאנית
+            </mat-button-toggle>
+            <mat-button-toggle [disabled]="booleanIdentutyDegel" (click)="axiomsList()" name="AxiomList">
+                רשימת האקסיומות
+            </mat-button-toggle>
+            <!--<mat-button-toggle [disabled]="!booleanIdentutyDegel" (click)="sendToBooleanIdentity()" name="BooleanIdentity">
+                זהות בוליאנית
+            </mat-button-toggle>-->
+        </mat-button-toggle-group>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img class="img-responsive" src="src/logo.png" />
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-6">
+        <br />
+        <br />
+        <br />
+        <br />
+        <div *ngIf="booleanIdentutyDegel==true">            
+            <form class="col-lg-8">
+                <input type="text" style="font-size:20px" class="form-control" dir="ltr" name="expression" [(ngModel)]="expression2.expression" (click)="pressEx2()">
+            </form>
+            <button mat-mini-fab style="background-color:black" color="primary" (click)="sendToBooleanIdentity()">v</button>  
+            <button mat-mini-fab style="background-color:#f15928" color="primary" (click)="closeBooleanIdentity()">x</button>            
+        </div>
+        <br />
+        <br />
+        <div>
+            <form class="col-lg-8">
+                <input type="text" style="font-size:20px" class="form-control" dir="ltr" name="expression" [(ngModel)]="expression.expression" (click)="pressEx1()">
+            </form>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div>
+            <div>           
+                <button mat-raised-button style="background-color:#f25929; color:white" (click)="deleteone()"  > clear </button>
+                <button mat-raised-button style="background-color:#f25929; color:white" (click)="deleteAll()"> clear all </button>
+                <button mat-raised-button style="background-color:#b0bec5" (click)="writeToExpression('(')"> ( </button>
+                <button mat-raised-button style="background-color:#b0bec5" (click)="writeToExpression(')')"> ) </button>
+            </div>
+            <br />
+            <div>
+                <button mat-raised-button [disabled]="aFlag && booleanIdentutyDegel" style="background-color:#b0bec5" (click)="writeToExpression('a')"> a </button>
+                <button mat-raised-button [disabled]="bFlag && booleanIdentutyDegel"  style="background-color:#b0bec5" (click)="writeToExpression('b')"> b </button>
+                <button mat-raised-button [disabled]="cFlag && booleanIdentutyDegel"  style="background-color:#b0bec5" (click)="writeToExpression('c')"> c </button>
+                <button mat-raised-button style="background-color:#b0bec5" (click)="writeToExpression('*')"> * </button>
+            </div>
+            <br />
+            <div>
+                <button mat-raised-button [disabled]="xFlag && booleanIdentutyDegel" style="background-color:#b0bec5" (click)="writeToExpression('x')"> x </button>
+                <button mat-raised-button [disabled]="yFlag && booleanIdentutyDegel" style="background-color:#b0bec5" (click)="writeToExpression('y')"> y </button>
+                <button mat-raised-button [disabled]="zFlag && booleanIdentutyDegel" style="background-color:#b0bec5" (click)="writeToExpression('z')"> z </button>
+                <button mat-raised-button style="background-color:#b0bec5" (click)="writeToExpression('+')"> + </button>
+            </div>
+            <br />
+            <div>
+                <button mat-raised-button [disabled]="wFlag && booleanIdentutyDegel" style="background-color:#b0bec5" (click)="writeToExpression('w')"> w </button>
+                <button mat-raised-button style="background-color:#b0bec5" (click)="writeToExpression('0')"> 0 </button>
+                <button mat-raised-button style="background-color:#b0bec5" (click)="writeToExpression('1')"> 1 </button>
+                <button mat-raised-button style="background-color:#b0bec5" (click)="writeToExpression('^')"> ^ </button>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="col-lg-8">
+            <my-truthTable dir="ltr" [truthTable]="truthTable" [expression]="expression.expression" *ngIf="truthDegel==true && expression.expression!=''"></my-truthTable>
+            <my-reduceLevels dir="ltr" *ngIf="fReduceLevels==true && expression.expression!=''" [reduceLevels]="reduceLevels" [reduceExpression]="reduceExpression"></my-reduceLevels>
+          
+           
+        </div>
+    </div>
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <my-logicGate *ngIf="logicGateDegel==true" [svg]="logicGate"></my-logicGate>
+    </div>
+</div>

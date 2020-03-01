@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="calculator.Axiom">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAAIA=</HashCode>
+      <FileName>Axiom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.AxiomBinTreeNode">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>AxiomBinTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.AxiomTrees">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>AxiomList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.AxiomList">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAACAAAAEAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AxiomList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.BinaryGate">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEACAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>BinaryGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.BinTreeNode">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIGgAACBoBAKEAACAAAEQyAAgBAIKACAQQAAAggAggA=</HashCode>
+      <FileName>BinTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.Const">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAACAAIAAAAAAAAAAAAAECAAAAAAIAAAAAAQA=</HashCode>
+      <FileName>Const.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.Expression">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="calculator.Expression.varAndValue" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PExpressionTruthTable.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gEAQAAQEAgCAAUAFQAJAEAAAMKJAiAAAKAQEAQgACAA=</HashCode>
+      <FileName>Expression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.LogicGate">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAgAAAAAAA=</HashCode>
+      <FileName>LogicGate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="calculator.Operand" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Operand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="calculator.Program">
+    <Position X="11.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="calculator.UnaryGate">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>UnaryGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="calculator.Node">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Node.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="9" />
+</ClassDiagram>

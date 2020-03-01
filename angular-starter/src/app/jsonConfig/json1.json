@@ -1,0 +1,185 @@
+﻿[
+  {
+    "exLeft": "0^",
+    "exRight": "1"
+  },
+  {
+    "exLeft": "1^",
+    "exRight": "0"
+  },
+  {
+    "exLeft": "0*0",
+    "exRight": "0"
+  },
+  {
+    "exLeft": "1+1",
+    "exRight": "1"
+  },
+  {
+    "exLeft": "1*1",
+    "exRight": "1"
+  },
+  {
+    "exLeft": "0+0",
+    "exRight": "0"
+  },
+  {
+    "exLeft": "0*1",
+    "exRight": "0"
+  },
+  {
+    "exLeft": "0+1",
+    "exRight": "1"
+  },
+  {
+    "exLeft": "0+x",
+    "exRight": "x"
+  },
+  {
+    "exLeft": "1*x",
+    "exRight": "x"
+  },
+  {
+    "exLeft": "0*x",
+    "exRight": "0"
+  },
+  {
+    "exLeft": "1+x",
+    "exRight": "1"
+  },
+  {
+    "exLeft": "x*x",
+    "exRight": "x"
+  },
+  {
+    "exLeft": "x+x",
+    "exRight": "x"
+  },
+  {
+    "exLeft": "(x^)^",
+    "exRight": "x"
+  },
+  {
+    "exLeft": "x+x^",
+    "exRight": "1"
+  },
+  {
+    "exLeft": "x+y+x^",
+    "exRight": "1+y"
+  },
+  {
+    "exLeft": "x^+x",
+    "exRight": "1"
+  },
+  {
+    "exLeft": "x^+y+x",
+    "exRight": "1+y"
+  },
+  {
+    "exLeft": "y+x+x^",
+    "exRight": "y+1"
+  },
+  {
+    "exLeft": "x*x^",
+    "exRight": "0"
+  },
+  {
+    "exLeft": "y*x*x^",
+    "exRight": "y*0"
+  },
+  {
+    "exLeft": "(x+y)*(x+z)",
+    "exRight": "x+y*z"
+  },
+  {
+    "exLeft": "w*(x+y)*(x+z)",
+    "exRight": "w*(x+y*z)"
+  },
+  {
+    "exLeft": "x+y*x",
+    "exRight": "x"
+  },  
+  {
+    "exLeft": "x+y*x+z",
+    "exRight": "x+z"
+  },  
+  {
+    "exLeft": "x+x*y",
+    "exRight": "x"
+  },  
+  {
+    "exLeft": "x+x*y+z",
+    "exRight": "x+z"
+  },
+  {
+    "exLeft": "y+x+x",
+    "exRight": "y+x"
+  },
+  {
+    "exLeft": "y*x*x",
+    "exRight": "y*x"
+  },
+  {
+    "exLeft": "x+x^*y",
+    "exRight": "x+y"
+  },
+  {
+    "exLeft": "x+x^*y+z",
+    "exRight": "x+y+z"
+  },
+  {
+    "exLeft": "x^*y+x",
+    "exRight": "x+y"
+  },
+  {
+    "exLeft": "x^*y+z+x",
+    "exRight": "x+y+z"
+  },
+  //{
+  //  "exLeft": "(x+y)*x",
+  //  "exRight": "x"
+  //},
+  {
+    "exLeft": "x*y+x*y^",
+    "exRight": "x",
+    "type": "or"
+  },
+  {
+    "exLeft": "(x+y)*(x+y^)",
+    "exRight": "x"
+  },
+  {
+    "exLeft": "x*y+x^*z+y*z",
+    "exRight": "x*y+x^*z"
+  },
+  {
+    "exLeft": "x*y+x^*z+y*z",
+    "exRight": "x*y+x^*z"
+  },
+  {
+    "exLeft": "z+x*y+x^*a+y*a",
+    "exRight": "z+a*x^+x*y"
+  },
+  {
+    "exLeft": "(x+y)*(x^+z)*(y+z)",
+    "exRight": "(x+y)*(x^+z)"
+  },
+  {
+    "exLeft": "z*(x+y)*(x^+a)*(y+a)",
+    "exRight": "z*(x+y)*(x^+a)"
+  }
+
+  //{
+  //  "exLeft": "x^+x^*y",
+  //  "exRight": "x^",
+  //  "type": "or"
+  //},
+  // {
+  //  "exLeft": "x*(x^+y)",
+  //  "exRight": "x*y",
+  //  "type": "or"
+  //}
+
+
+
+]

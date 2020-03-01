@@ -1,0 +1,99 @@
+﻿   [
+    {
+      "exLeft": "0*0",
+      "exRight": "0"
+    },
+    {
+      "exLeft": "1+1",
+      "exRight": "1"
+    },
+    {
+      "exLeft": "1*1",
+      "exRight": "1"
+    },
+    {
+      "exLeft": "0+0",
+      "exRight": "0"
+    },
+    {
+      "exLeft": "0*1",
+      "exRight": "0"
+    },
+    {
+      "exLeft": "0+1",
+      "exRight": "1"
+    },
+    {
+      "exLeft": "1+x",
+      "exRight": "1"
+    },
+    {
+      "exLeft": "0+x",
+      "exRight": "x"
+    },
+    {
+      "exLeft": "1*x",
+      "exRight": "x"
+    },
+    {
+      "exLeft": "0*x",
+      "exRight": "0"
+    },
+    {
+      "exLeft": "1+x",
+      "exRight": "1"
+    },
+    {
+      "exLeft": "x*x",
+      "exRight": "x"
+    },
+
+    {
+      "exLeft": "(x^)^",
+      "exRight": "x"
+    },
+    {
+      "exLeft": "x+x^",
+      "exRight": "1"
+    },
+    {
+       "exLeft": "x*x^",
+      "exRight": "0"
+    },
+
+    {
+      "exLeft": "(x+y)*(x+z)",
+      "exRight": "x+y*z"
+    },
+    {
+      "exLeft": "x+x*y",
+      "exRight": "x"
+    },
+    {
+      "exLeft": "x*(x+y)",
+      "exRight": "x"
+    },
+    {
+      "exLeft": "x*y+x*y^",
+      "exRight": "x"
+    },
+    {
+      "exLeft": "(x+y)*(x+y^)",
+      "exRight": "x"
+    },
+    {
+      "exLeft": "x*y+x^*z+y*z",
+      "exRight": "x*y+x^*z"
+    },
+    {
+      "exLeft": "(x+y)*(x^+z)*(y+z)",
+      "exRight": "(x+y)*(x^+z)"
+    }
+
+
+
+  ]
+  
+
+
+
